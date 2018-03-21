@@ -1,0 +1,27 @@
+{
+  "name": "download",
+  "version": "1.0.0",
+  "description": "NodeJs download files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itagn/download.git"
+  },
+  "keywords": [
+    "nodejs",
+    "download"
+  ],
+  "author": "itagn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itagn/download/issues"
+  },
+  "homepage": "https://github.com/itagn/download#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "cheerio": "^0.22.0"
+  }
+}
