@@ -1,26 +1,34 @@
 # download  
 ## Introduction  
 
- :rocket: NodeJS下载页面资源  
+ :rocket: Use NodeJS to download files
 
 ## Install
 ```text
 $ git clone https://github.com/itagn/download.git 
 ```
 ## Usage
+
+```text
+$ cd download
+$ npm install
+$ touch test.js  //  As follows
+$ node test.js
+```
+code of test.js
 ```javascript
 ;(function(){
     let { download } = require('./index');
     let files = [{
         tag: 'img',
         type: 'jpg',
-        descript: '图片'
+        descript: 'images'
     }, {
         tag: 'video',
         type: 'mp4',
-        descript: '视频'
+        descript: 'videos'
     }];
-    let url = 'https://tieba.baidu.com/f?ie=utf-8&kw=%E6%89%92%E7%9A%AE&fr=search';
+    let url = '';  //  url
     download(url, files);
 })();
 ```
