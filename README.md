@@ -12,7 +12,6 @@ $ git clone https://github.com/itagn/download.git
 ```text
 $ cd download
 $ npm install
-$ touch test.js  //  As follows
 $ node test.js
 ```
 code of test.js
